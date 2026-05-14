@@ -1,1 +1,361 @@
 
+# -------------------------------------
+# State of Command: Polish locale
+# Format: key=value
+# Lines starting with # are comments
+# -------------------------------------
+
+# Main Menu
+menu.button.start_game=Zacznij Grę
+menu.button.profile=Profil
+menu.button.settings=Ustawienia
+menu.button.quit=Wyjdź
+menu.intro.presented_by=Prezentuję
+
+# Main Menu Settings
+menu.settings.title=Ustawienia
+menu.settings.language=Język
+
+# UI Manager| Flag Bar
+ui.button.diplomacy=Dyplomacja
+ui.button.economy=Strefa ekonomiczna
+ui.button.unset=Brak wyboru
+ui.button.military=Dywizja
+
+# UI Manager| Country Select
+ui.button.play_as=Graj jako
+
+# UI Manager| Settings
+ui.window.settings=Ustawienia
+ui.settings.secondary_icons=Wybierz Flagę Dywizji
+ui.settings.flag_zoom_out=Pokaż Flagę (Units)
+ui.settings.nation_overlay=Obramówka Krajów (N)
+ui.settings.always_flag=Pokaż Flagę na Dywizji (F)
+ui.settings.unit_size=Siła Dywizji
+
+# UI Manager| City tab (single city)
+ui.label.pop=Populacja: %d
+ui.label.buildings=Budynki:
+ui.label.no_buildings=Brak Budynków
+ui.label.construct=Konstrukcja:
+ui.button.factory=Manufaktura
+ui.button.military_hq=Siedziba Dowództwa
+ui.button.depot=Magazyn
+
+# UI Manager| City Tab (multiple cities)
+ui.label.cities_selected=%zu wybrane miasta
+ui.label.total_buildings=Wszystkie Budynki:
+ui.label.no_buildings_selected=Brak budynków w wybranych miastach
+ui.button.create_units=Trenuj Dywizje
+ui.button.construct_buildings=Planuj Budowę
+
+# UI Manager| Building Tab
+ui.building.industrial_factory=Fabryka
+ui.building.production_lines=Produkcji:
+ui.building.inventory=Inwentarz:
+ui.building.no_items=Brak materiałów
+ui.button.add_production_line=Buduj Linię Produkcji
+ui.building.military_hq_title=Siedziba Dowództwa 
+ui.button.spawn_unit=Spawn Jednostki
+ui.building.supply_depot=Magazyn
+ui.building.stored_equipment=Zasoby ekwipunku:
+ui.label.empty=Brak
+
+# UI Manager| Unit Creation Tab
+ui.label.select_unit_type=Wybierz Typ Dywizji:
+ui.button.cancel=Usuń
+
+# UI Manager| Unit Tooltip
+ui.tooltip.no_equipment=Brak ekwipunku
+ui.tooltip.morale=Morale: %.1f
+ui.tooltip.retreat_behavior=Warunek Odwrotu: %s
+ui.retreat.normal=Standardowo
+ui.retreat.hold_position=Utrzymaj Pozycję
+ui.retreat.fallback=Odwrót
+ui.tooltip.forming=FORMOWANIE: %.0f%%
+
+# UI Manager| Invasion Mode
+ui.invasion.mode_active=PLAN INWAZJI GOTOWY
+ui.invasion.draw_line=Narysuj linie aby atakować
+ui.invasion.toggle_off=Naciśnij "I" aby anulować
+ui.button.execute=ATAKUJ
+
+# UI Manager| Building Creation Tab
+ui.window.construct_building=Konstrukcja Infrastruktury
+ui.label.construct_building=Konstrukcja Infrastruktury:
+
+# UI Manager| Diplomacy tab
+ui.diplomacy.your_nation=Twój Kraj:
+ui.diplomacy.status_ally=SOJUSZNIK
+ui.diplomacy.status_war=STAN WOJNY
+ui.diplomacy.status_neutral=Neutralny
+ui.diplomacy.button_ally=Zaproponuj Sojusz
+ui.diplomacy.button_war=Wypowiedz Wojnę
+ui.diplomacy.button_break_alliance=Złam Sojusz
+ui.diplomacy.button_peace=Oferuj Pokój
+ui.diplomacy.info_tooltip=Naciśnij prawy przycisk myszki aby zamknąć okno 
+
+# Editor| Top Bar
+editor.btn.provinces=Prowincje
+editor.btn.cities=Miasta
+editor.btn.urban=Urban
+editor.btn.roads=Drogi
+editor.btn.buildings=Budynki
+editor.btn.units=Jednostki
+editor.btn.nations=Kraje
+editor.btn.draw_province=Rysuj Prowincje
+editor.btn.definitions=Definicje
+editor.btn.ref=+ Ref
+editor.tooltip.render_settings=Ustawienia Renderowania
+editor.label.modified=[MODYFIKOWANY]
+editor.label.no_map=Błąd mapy — otwórz Menadżer Zasobów aby załadować mapę 
+
+# Editor| Resource Browser
+editor.window.resource_browser=Menadżer Zasobów
+editor.tab.maps=Mapy
+editor.tab.units=Jednostki
+editor.tab.flags=Flagi
+editor.btn.refresh=Odśwież
+editor.btn.load_map=Ładuj Mapę
+editor.btn.save_map=Zapisz Mapę
+editor.btn.load_unit_set=Ładuj Jednostki
+editor.btn.save_flags=Zapisz Flagę 
+editor.btn.load_flag_set=Ładuj Flagę
+editor.btn.duplicate=Duplikuj
+editor.btn.save_to=Zapisz do...
+editor.hint.new_set_name=Nazwij nową grupę...
+editor.btn.create=Stwórz
+editor.btn.save_all=Zapisz Projekt (Ctrl+S)
+editor.label.unsaved=Niezapisane zmiany!
+editor.hint.or_new_name=albo wpisz nową nazwę...
+editor.btn.save=Zapisz
+
+# Editor| Duplicate / Save To Popups
+editor.popup.duplicate_title=Duplikuj Grupę
+editor.popup.duplicate_format=Duplikuj %s Set
+editor.popup.new_name_label=Nowa Nazwa
+editor.btn.duplicate_confirm=Duplikuj
+editor.btn.cancel=Anuluj
+editor.popup.save_to_title=Zapisz Grupę
+editor.popup.save_to_format=Zapisz projekt do %s set:
+editor.set_type.map=Mapa
+editor.set_type.unit=Dywizja
+editor.set_type.flag=Flaga
+
+# Editor| Province Panel
+editor.window.province=Ustawienia Prowincji
+editor.label.province_id=ID Prowincji: %d
+editor.input.province_name=Nazwa Prowincji
+editor.input.owning_nation=Teren Kraju
+editor.input.assign_nation=Dodaj do Kraju
+editor.label.vertices=Punkt: %d  (granica: %d)
+editor.label.vertex_info=Punkt #%d  (%.6f, %.6f)
+editor.input.vertex_pos=Position
+editor.label.belongs_to=Należy do: %d (%s)
+editor.input.reassign_id=Zmień ID Prowincji
+editor.btn.reassign=Zmień Punkt
+editor.btn.remove_vertex=Usuń Punkt
+editor.label.interior_vertex=(punkt środkowy)
+editor.label.min_verts=(min 3 punkty)
+editor.label.province_management=ZarządzanieProwincji 
+editor.btn.stop_adding=Stop
+editor.btn.add_vertex=Dodaj Punkt
+editor.label.click_boundary=Nacisnij na granice aby dodać
+editor.btn.draw_new_province=Rysuj Nową Prowincję
+editor.label.drawing_verts=Rysowanie... (%d verts)
+editor.btn.delete_province=Usuń Prowincję
+
+# Editor| Nation Panel
+editor.window.nation=Opis Kraju
+editor.label.nation_hash=Hash: %u  Prowincje: %d
+editor.input.nation_name=Nazwa Kraju
+editor.label.no_flag=(brak flagi)
+editor.label.flag_set=Flag set: %s
+editor.btn.change_flag=Zmień flagę...
+editor.label.allies=Sojusze
+editor.btn.add_ally=Dodaj sojusznika
+editor.label.enemies=Wrogowie
+editor.btn.add_enemy=Dodaj Wroga
+editor.label.province_list_header=Lista Prowincji
+editor.label.state_management=Zarządzanie stanem
+editor.input.new_state_name=Nazwa Nowego Kraju Name##newstate
+editor.btn.create_state=Stwórz Kraj
+editor.btn.delete_state=Usuń Kraj
+
+# Editor| City Panel
+editor.window.city=Edytor Miasta
+editor.label.cities_count=Miasta: %d
+editor.btn.placing_cities=Planowanie...
+editor.btn.place_city=Postaw Miasto
+editor.label.click_map_place=Nacisnij mapę zatwierdzić 
+editor.label.city_id=Miasto #%d
+editor.input.city_name=Nazwa
+editor.input.city_state=Stan
+editor.input.city_province=Prowincja
+editor.input.population=Populacja
+editor.input.lon_lat=Lon / Lat
+editor.checkbox.urban_area=Teren Zabudowany
+editor.label.world_coords=Świat: (%.4f, %.4f)
+editor.btn.delete_city=Usuń Miasto 
+editor.input.filter=Filter
+
+# Editor| Road Panel
+editor.window.road=Edytor Dróg
+editor.label.segments=Segmenty: %d
+editor.btn.new_segment=Nowy Segment
+editor.label.add_mode=DODAJ TRYB
+editor.btn.stop=Stop
+editor.btn.add_points=Dodaj segmenty
+editor.label.segment_info=Segmenty #%d (%d pts)
+editor.input.point_pos=Punkt
+editor.btn.delete_point=Usuń Punkt
+editor.btn.delete_segment=Usuń Segment
+
+# Editor| Building Panel
+editor.window.building=Edytor Budynków
+editor.label.buildings_click=Budynki: %d  — naciśnij lewy przycisk aby budować 
+editor.label.building_id=Budowanie #%d
+editor.input.building_type=Typ
+editor.input.owner_state=Właściciel
+editor.input.city_assign=Miasto
+editor.input.building_pos=Pozycja
+editor.label.drag_map=Przeciągnij po mapie aby przesunąć
+editor.label.factory_props=Funkcje Manufaktur
+editor.input.throughput=Pojemność Fabryki
+editor.input.shipping_threshold=Pojemność Transportowa
+editor.label.production_lines_count=Linia Produkcji: %d
+editor.input.equipment=Ekwipunek
+editor.input.capacity=Pojemność
+editor.btn.remove=Usuń
+editor.btn.add_production_line=Dodaj Linię Produkcji
+editor.label.depot_props=Funkcje Magazynu
+editor.input.max_equipment=Max Pojemność Magazynu
+editor.input.max_manpower=Max Zasoby Ludzkie
+editor.label.military_hq=Siedziba Dowództwa
+editor.label.no_additional_props=Brak Dodatkowych Funkcji
+editor.btn.delete_building=Usuń Budynek
+
+# Editor| Unit Panel
+editor.window.unit=Edytor Dywizji
+editor.label.units_click=Dywizje: %d  — naciśnij na mapę aby zmobilizować
+editor.label.unit_id=Dywizja #%d
+editor.input.given_name=Nazwa
+editor.label.given_name_hint=Nazwa Dywizji (Auto-Generowana)
+editor.input.definition=Definicja
+editor.checkbox.fully_formed=Pełna Jednostka (Elita Wyszkolona)
+editor.btn.generate_name=Generuj Nazwę
+editor.btn.delete_unit=Usuń Dywizje
+
+# Editor| Status Bar
+editor.mode.provinces=Prowincje
+editor.mode.cities=Miasta
+editor.mode.urban_areas=Teren Zabudowany
+editor.mode.roads=Drogi
+editor.mode.buildings=Budynki
+editor.mode.units=Dywizje
+editor.mode.nations=Kraje
+editor.status.modified= [EDYTOWANE]
+editor.status.dropper_active= | DROPPER AKTYWNY
+editor.status.add_vertex= | DODAJ PUNKT
+editor.status.no_map=Wybierz Mape
+
+# Editor| Help Overlay
+editor.window.controls=
+editor.help.navigation=Nawigacja
+editor.help.wasd=WASD / Right-drag: Ruszaj mapą
+editor.help.scroll=Skrolluj: Zbliż mapę
+editor.help.selection=Selekcja
+editor.help.click=Click: Wybierz / Umieść
+editor.help.shift_click=Shift+Click: Kraj (Tryb prowincji)
+editor.help.drag=Drag: Przenieś Selekcje
+editor.help.escape=Escape: Anuluj Selekcje
+editor.help.ctrl_s=Ctrl+S: Zapisz projekt
+editor.help.pick=Pick button: Kolory
+
+# Editor| Dropper Overlay
+editor.dropper.click_province=Naciśnij myszką prowincje aby wybrać kraj 
+
+# Editor| Dropper Button
+editor.btn.picking=Wybieranie...
+editor.btn.pick=Wybierz
+editor.tooltip.dropper=Naciśnij prowincje aby przypisać właściciela
+
+# Editor| Nation/Province Combo Filters
+editor.hint.search_nations=Szukaj kraju...
+editor.hint.search_provinces=Szukaj prowincji...
+
+# ---- Editor — Province Creation Panel ----
+editor.window.draw_province=Rysuj prowincję
+editor.label.click_map_vertices= Naciśnij na mapę aby postawić punkt graniczny
+editor.label.vertices_placed=Punkty postawione: %d
+editor.input.create_prov_name=Nazwa##crprov
+editor.input.create_prov_state=Kraj##crprov
+editor.btn.undo_last=Usuń Ostatni Punkt
+editor.btn.finish_province=Zatwierdź edycje 
+editor.label.or_click_first=Nacisnij obok pierwszego punktu na zielona kropkę aby zatwierdzić kształt
+editor.label.min_3_verts=Musisz postawić minimum 3 punkty aby zatwierdzić
+
+# Editor| Reference Overlay Panel
+editor.window.ref_image=Mapy i Prowincje do Referencji
+editor.btn.delete=Usuń
+editor.btn.unlock=Odblokuj
+editor.btn.lock=Zablokuj
+editor.btn.hide=Ukryj Overlay
+editor.btn.show=Odkryj Overlay
+editor.input.opacity=Nasycenie
+editor.input.position=Pozycja
+editor.input.size=Wielkość (W/H)
+editor.input.scale=Skala
+editor.btn.fit_to_map=Dopasuj do Mapy  
+
+# Editor| Render Settings 
+editor.window.render_settings=Ustawienia Renderowania
+editor.label.tile_textures=Tekstury Płytek Mapy
+editor.checkbox.show_tile_textures=Pokarz Obramowanie Płytek
+editor.input.tint_strength=Skala Zabarwienia
+editor.label.nation_rendering=Renderowanie Kraju
+editor.checkbox.render_by_nation=Renderuj pod Kolor Kraju
+editor.checkbox.show_nation_flags=Pokarz Flagi Krajów
+editor.tooltip.nation_flags=Renderuj flagi w środku wybranego terytorium
+editor.label.layer_opacities=Nakładka Warstw
+editor.input.provinces_opacity=Prowincje
+editor.input.roads_opacity=Drogi
+editor.input.city_dots_opacity=Punkt Miasta
+editor.input.urban_areas_opacity=Teren Zabudowany
+editor.input.buildings_opacity=Budynki
+editor.input.units_opacity=Dywizje
+editor.btn.reset_all=Resetuj 
+
+# Editor| Urban Area Panel
+editor.window.urban=Edytor Terenu Zabudowanego
+editor.label.urban_count=Teren Zabudowany: %d
+editor.btn.draw_urban=Rysuj Budynki
+editor.label.drawing_urban=Rysowanie... (%d verts)
+editor.label.urban_id=Teren Zabudowany #%d  (%d boundary verts)
+editor.input.urban_name=Nazwa
+editor.input.urban_state=Właściciel Kraju
+editor.input.urban_province=Prowincja
+editor.input.urban_pop=Populacja
+editor.input.filter_urban=Filter##urban
+
+# Editor| Urban Area Creation Panel
+editor.window.draw_urban=Rysuj Budynki
+editor.input.create_urban_name=Nazwa##crurban
+editor.input.create_urban_state=Stan##crurban
+editor.btn.finish_urban=Zapisz Edycje
+
+# Editor| Nation Editor Tab
+editor.window.nation_editor=Edytor Kraju
+editor.label.nations_count=Kraje: %d
+editor.input.filter_nations=Filter##nations
+editor.label.selected_nation=Wybrane: %s
+editor.input.nation_name_ne=Nazwa Kraju##ne
+editor.label.provinces_ne=Prowincje##ne
+
+# Editor| Definition Editor 
+editor.window.definition_editor=Edytor Definicji
+editor.btn.equipment_tab=Ekwipunek
+editor.btn.units_tab=Dywizje
+editor.btn.save_all_def=Zapisz Edycje
+editor.btn.close=Wyjdź z Edytora
+editor.label.background_icons=Ikony w Tle

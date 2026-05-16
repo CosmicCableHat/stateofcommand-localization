@@ -1,0 +1,131 @@
+# -------------------------------------
+# State of Command: Italian locale
+# Format: key=value
+# Lines starting with # are comments
+# -------------------------------------
+
+# Main Menu
+menu.button.start_game=Avvia gioco
+menu.button.profile=Profilo
+menu.button.settings=Impostazioni
+menu.button.quit=Esci
+menu.intro.presented_by=Presentato da
+
+# Main Menu Settings
+menu.settings.title=Impostazioni
+menu.settings.language=Lingua
+
+# UI Manager| Flag Bar
+ui.button.diplomacy=Diplomazia
+ui.button.economy=Economia
+ui.button.unset=Non selezionato
+ui.button.military=Militare
+
+# UI Manager| Country Select
+ui.button.play_as=Gioca come
+
+# UI Manager| Settings
+ui.window.settings=Impostazioni
+ui.settings.secondary_icons=Usa icone secondarie delle unità
+ui.settings.flag_zoom_out=Mostra la bandiera quando si allontana la visuale (Unità)
+ui.settings.nation_overlay=Overlay delle nazioni (N)
+ui.settings.always_flag=Mostra sempre la bandiera sulle truppe (F)
+ui.settings.unit_size=Dimensione unità
+
+# UI Manager| City tab (single city)
+ui.label.pop=Popolazione: %d
+ui.label.buildings=Edifici:
+ui.label.no_buildings=Nessun edificio
+ui.label.construct=Costruisci:
+ui.button.factory=Fabbrica
+ui.button.military_hq=Quartier generale militare
+ui.button.depot=Deposito
+
+# UI Manager| City Tab (multiple cities)
+ui.label.cities_selected=%zu città selezionate
+ui.label.total_buildings=Edifici totali:
+ui.label.no_buildings_selected=Nessun edificio nelle città selezionate
+ui.button.create_units=Crea unità
+ui.button.construct_buildings=Costruisci edifici
+
+# UI Manager| Building Tab
+ui.building.industrial_factory=Fabbrica industriale
+ui.building.production_lines=Linee di produzione:
+ui.building.inventory=Inventario:
+ui.building.no_items=Vuoto
+ui.button.add_production_line=Aggiungi linea di produzione
+ui.building.military_hq_title=Quartier generale militare
+ui.button.spawn_unit=Crea unità
+ui.building.supply_depot=Deposito di rifornimenti
+ui.building.stored_equipment=Equipaggiamento immagazzinato:
+ui.label.empty=Vuoto
+
+# UI Manager| Unit Creation Tab
+ui.label.select_unit_type=Seleziona il tipo di unità:
+ui.button.cancel=Annulla
+
+# UI Manager| Unit Tooltip
+ui.tooltip.no_equipment=Nessun equipaggiamento
+ui.tooltip.morale=morale: %.1f
+ui.tooltip.retreat_behavior=comportamento di ritirata: %s
+ui.retreat.normal=Normale
+ui.retreat.hold_position=Mantieni posizione
+ui.retreat.fallback=Ritirata
+ui.tooltip.forming=in formazione: %.0f%%
+
+# UI Manager| Invasion Mode
+ui.invasion.mode_active=MODALITÀ INVASIONE ATTIVA
+ui.invasion.draw_line=Disegna la linea d'attacco
+ui.invasion.toggle_off=Premi 'I' per disattivare
+ui.button.execute=ESEGUI
+
+# UI Manager| Building Creation Tab
+ui.window.construct_building=Costruisci edificio
+ui.label.construct_building=Costruisci edificio:
+
+# UI Manager| Diplomacy tab
+ui.diplomacy.your_nation=La tua nazione:
+ui.diplomacy.status_ally=ALLEATO
+ui.diplomacy.status_war=GUERRA
+ui.diplomacy.status_neutral=Neutrale
+ui.diplomacy.button_ally=Forma alleanza
+ui.diplomacy.button_war=Dichiara guerra
+ui.diplomacy.button_break_alliance=Rompi alleanza
+ui.diplomacy.button_peace=Dichiara pace
+ui.diplomacy.info_tooltip=Fai clic destro sulla mappa per chiudere
+
+# Editor| Top Bar
+editor.btn.provinces=Province
+editor.btn.cities=Città
+editor.btn.urban=Aree urbane
+editor.btn.roads=Strade
+editor.btn.buildings=Edifici
+editor.btn.units=Unità
+editor.btn.nations=Nazioni
+editor.btn.draw_province=Disegna provincia
+editor.btn.definitions=Definizioni
+editor.btn.ref=+ Rif
+editor.tooltip.render_settings=Impostazioni di rendering
+editor.label.modified=[MODIFICATO]
+editor.label.no_map=Nessuna mappa caricata — apri il Browser Risorse per caricare una mappa
+
+# Editor| Resource Browser
+editor.window.resource_browser=Browser Risorse
+editor.tab.maps=Mappe
+editor.tab.units=Unità
+editor.tab.flags=Bandiere
+editor.btn.refresh=Aggiorna
+editor.btn.load_map=Carica mappa
+editor.btn.save_map=Salva mappa
+editor.btn.load_unit_set=Carica set unità
+editor.btn.save_flags=Salva bandiere
+editor.btn.load_flag_set=Carica set di bandiere
+editor.btn.duplicate=Duplica
+editor.btn.save_to=Salva come...
+editor.hint.new_set_name=Nome del nuovo set...
+editor.btn.create=Crea
+editor.btn.save_all=Salva tutto (Ctrl+S)
+editor.label.unsaved=Modifiche non salvate!
+editor.hint.or_new_name=Oppure inserisci un nuovo nome...
+editor.btn.save=Salva
+```

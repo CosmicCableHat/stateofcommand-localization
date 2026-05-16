@@ -253,9 +253,9 @@ editor.mode.roads=Wegen
 editor.mode.buildings=Gebouwen
 editor.mode.units=Eenheden
 editor.mode.nations=Landen
-editor.status.modified= [GEWIJZIGD]
-editor.status.dropper_active= | DROPPER ACTIEF
-editor.status.add_vertex= | ADD HOEKPUNT
+editor.status.modified=[GEWIJZIGD]
+editor.status.dropper_active=| DROPPER ACTIEF
+editor.status.add_vertex=| ADD HOEKPUNT
 editor.status.no_map=Geen kaart geladen
 
 # Editor| Help Overlay

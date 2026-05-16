@@ -253,9 +253,9 @@ editor.mode.roads=Roads
 editor.mode.buildings=Buildings
 editor.mode.units=Units
 editor.mode.nations=Nations
-editor.status.modified= [MODIFIED]
-editor.status.dropper_active= | DROPPER ACTIVE
-editor.status.add_vertex= | ADD VERTEX
+editor.status.modified=[MODIFIED]
+editor.status.dropper_active=| DROPPER ACTIVE
+editor.status.add_vertex=| ADD VERTEX
 editor.status.no_map=No map loaded
 
 # Editor| Help Overlay

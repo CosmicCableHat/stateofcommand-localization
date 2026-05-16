@@ -18,7 +18,7 @@ menu.settings.language=Język
 
 # UI Manager| Flag Bar
 ui.button.diplomacy=Dyplomacja
-ui.button.economy=Strefa ekonomiczna
+ui.button.economy=Ekonomia
 ui.button.unset=Brak wyboru
 ui.button.military=Dywizja
 
@@ -38,7 +38,7 @@ ui.label.pop=Populacja: %d
 ui.label.buildings=Budynki:
 ui.label.no_buildings=Brak Budynków
 ui.label.construct=Konstrukcja:
-ui.button.factory=Manufaktura
+ui.button.factory=Fabryka
 ui.button.military_hq=Siedziba Dowództwa
 ui.button.depot=Magazyn
 
@@ -50,13 +50,13 @@ ui.button.create_units=Trenuj Dywizje
 ui.button.construct_buildings=Planuj Budowę
 
 # UI Manager| Building Tab
-ui.building.industrial_factory=Fabryka
-ui.building.production_lines=Produkcji:
-ui.building.inventory=Inwentarz:
+ui.building.industrial_factory=Fabryka przemysłowa
+ui.building.production_lines=Linie produkcji:
+ui.building.inventory=Ekwipnek:
 ui.building.no_items=Brak materiałów
 ui.button.add_production_line=Buduj Linię Produkcji
 ui.building.military_hq_title=Siedziba Dowództwa 
-ui.button.spawn_unit=Spawn Jednostki
+ui.button.spawn_unit=Stwórz Jednostki
 ui.building.supply_depot=Magazyn
 ui.building.stored_equipment=Zasoby ekwipunku:
 ui.label.empty=Brak
@@ -116,11 +116,11 @@ editor.tab.maps=Mapy
 editor.tab.units=Jednostki
 editor.tab.flags=Flagi
 editor.btn.refresh=Odśwież
-editor.btn.load_map=Ładuj Mapę
+editor.btn.load_map=Załaduj Mapę
 editor.btn.save_map=Zapisz Mapę
-editor.btn.load_unit_set=Ładuj Jednostki
+editor.btn.load_unit_set=Załaduj Jednostki
 editor.btn.save_flags=Zapisz Flagę 
-editor.btn.load_flag_set=Ładuj Flagę
+editor.btn.load_flag_set=Załaduj Flagę
 editor.btn.duplicate=Duplikuj
 editor.btn.save_to=Zapisz do...
 editor.hint.new_set_name=Nazwij nową grupę...
@@ -150,7 +150,7 @@ editor.input.owning_nation=Teren Kraju
 editor.input.assign_nation=Dodaj do Kraju
 editor.label.vertices=Punkt: %d  (granica: %d)
 editor.label.vertex_info=Punkt #%d  (%.6f, %.6f)
-editor.input.vertex_pos=Position
+editor.input.vertex_pos=Pozycja
 editor.label.belongs_to=Należy do: %d (%s)
 editor.input.reassign_id=Zmień ID Prowincji
 editor.btn.reassign=Zmień Punkt
@@ -166,7 +166,7 @@ editor.label.drawing_verts=Rysowanie... (%d verts)
 editor.btn.delete_province=Usuń Prowincję
 
 # Editor| Nation Panel
-editor.window.nation=Opis Kraju
+editor.window.nation=Właściwości Kraju
 editor.label.nation_hash=Hash: %u  Prowincje: %d
 editor.input.nation_name=Nazwa Kraju
 editor.label.no_flag=(brak flagi)
@@ -185,9 +185,9 @@ editor.btn.delete_state=Usuń Kraj
 # Editor| City Panel
 editor.window.city=Edytor Miasta
 editor.label.cities_count=Miasta: %d
-editor.btn.placing_cities=Planowanie...
+editor.btn.placing_cities=Postawianie Miast...
 editor.btn.place_city=Postaw Miasto
-editor.label.click_map_place=Nacisnij mapę zatwierdzić 
+editor.label.click_map_place=Nacisnij mapę aby postawić
 editor.label.city_id=Miasto #%d
 editor.input.city_name=Nazwa
 editor.input.city_state=Stan
@@ -213,14 +213,14 @@ editor.btn.delete_segment=Usuń Segment
 
 # Editor| Building Panel
 editor.window.building=Edytor Budynków
-editor.label.buildings_click=Budynki: %d  — naciśnij lewy przycisk aby budować 
+editor.label.buildings_click=Budynki: %d  — naciśnij lewy przycisk aby zbudować 
 editor.label.building_id=Budowanie #%d
 editor.input.building_type=Typ
 editor.input.owner_state=Właściciel
 editor.input.city_assign=Miasto
 editor.input.building_pos=Pozycja
 editor.label.drag_map=Przeciągnij po mapie aby przesunąć
-editor.label.factory_props=Funkcje Manufaktur
+editor.label.factory_props=Właściwości Fabryki
 editor.input.throughput=Pojemność Fabryki
 editor.input.shipping_threshold=Pojemność Transportowa
 editor.label.production_lines_count=Linia Produkcji: %d
@@ -280,7 +280,7 @@ editor.btn.picking=Wybieranie...
 editor.btn.pick=Wybierz
 editor.tooltip.dropper=Naciśnij prowincje aby przypisać właściciela
 
-# Editor| Nation/Province Combo Filters
+# Editor| Nation/Province Combo Filtry
 editor.hint.search_nations=Szukaj kraju...
 editor.hint.search_provinces=Szukaj prowincji...
 
@@ -292,7 +292,7 @@ editor.input.create_prov_name=Nazwa##crprov
 editor.input.create_prov_state=Kraj##crprov
 editor.btn.undo_last=Usuń Ostatni Punkt
 editor.btn.finish_province=Zatwierdź edycje 
-editor.label.or_click_first=Nacisnij obok pierwszego punktu na zielona kropkę aby zatwierdzić kształt
+editor.label.or_click_first=Lub Nacisnij obok pierwszego punktu (zieloną kropkę) aby zatwierdzić kształt
 editor.label.min_3_verts=Musisz postawić minimum 3 punkty aby zatwierdzić
 
 # Editor| Reference Overlay Panel
@@ -300,9 +300,9 @@ editor.window.ref_image=Mapy i Prowincje do Referencji
 editor.btn.delete=Usuń
 editor.btn.unlock=Odblokuj
 editor.btn.lock=Zablokuj
-editor.btn.hide=Ukryj Overlay
-editor.btn.show=Odkryj Overlay
-editor.input.opacity=Nasycenie
+editor.btn.hide=Ukryj Nakładkę
+editor.btn.show=Odkryj Nakładkę
+editor.input.opacity=Przezroczystość
 editor.input.position=Pozycja
 editor.input.size=Wielkość (W/H)
 editor.input.scale=Skala
@@ -311,7 +311,7 @@ editor.btn.fit_to_map=Dopasuj do Mapy
 # Editor| Render Settings 
 editor.window.render_settings=Ustawienia Renderowania
 editor.label.tile_textures=Tekstury Płytek Mapy
-editor.checkbox.show_tile_textures=Pokarz Obramowanie Płytek
+editor.checkbox.show_tile_textures=Pokarz tekstry Płytek
 editor.input.tint_strength=Skala Zabarwienia
 editor.label.nation_rendering=Renderowanie Kraju
 editor.checkbox.render_by_nation=Renderuj pod Kolor Kraju
@@ -336,7 +336,7 @@ editor.input.urban_name=Nazwa
 editor.input.urban_state=Właściciel Kraju
 editor.input.urban_province=Prowincja
 editor.input.urban_pop=Populacja
-editor.input.filter_urban=Filter##urban
+editor.input.filter_urban=Filtr##urban
 
 # Editor| Urban Area Creation Panel
 editor.window.draw_urban=Rysuj Budynki

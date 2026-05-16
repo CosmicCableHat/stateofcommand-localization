@@ -253,9 +253,9 @@ editor.mode.roads=Ճանապարհներ
 editor.mode.buildings=Շինություններ
 editor.mode.units=Շինություններ
 editor.mode.nations=Զորքեր
-editor.status.modified= [ՓՈՓՈԽՎԱԾ]
-editor.status.dropper_active= | ԸՆՏՐՄԱՆ ԳՈՐԾԻՔԸ ՄԻԱՑՎԱԾ Է
-editor.status.add_vertex= | ԱՎԵԼԱՑՆԵԼ ԿԵՏ
+editor.status.modified=[ՓՈՓՈԽՎԱԾ]
+editor.status.dropper_active=| ԸՆՏՐՄԱՆ ԳՈՐԾԻՔԸ ՄԻԱՑՎԱԾ Է
+editor.status.add_vertex=| ԱՎԵԼԱՑՆԵԼ ԿԵՏ
 editor.status.no_map=Քարտեզ բեռնված չէ
 
 # Editor| Help Overlay

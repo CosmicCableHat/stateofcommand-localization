@@ -11,7 +11,6 @@ on:
       - 'locales/**'
 
 permissions:
-  pull-requests: write
   contents: read
 
 jobs:
@@ -33,17 +32,3 @@ jobs:
       - name: Run the script
         id: validate
         run: python .github/scripts/check_locales.py
-
-      - name: Comment PR on Failure
-        if: failure() && github.event_name == 'pull_request'
-        uses: marocchino/sticky-pull-request-comment@main
-        with:
-          header: locale-validation
-          path: pr_comment.md
-
-      - name: Remove PR Comment on Success
-        if: success() && github.event_name == 'pull_request'
-        uses: marocchino/sticky-pull-request-comment@main
-        with:
-          header: locale-validation
-          delete: true

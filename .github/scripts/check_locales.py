@@ -38,7 +38,6 @@ def main():
             }
 
     errors_found = False
-    error_messages = []
 
     # Fetch origin main to ensure it is available for comparison
     if 'GITHUB_ACTIONS' in os.environ:
@@ -63,7 +62,6 @@ def main():
         except UnicodeDecodeError:
             msg = "File is not valid UTF-8 encoded."
             print(f"::error file={filepath}::{msg}")
-            error_messages.append(f"- **{filename}**: {msg}")
             errors_found = True
             continue
 
@@ -76,7 +74,6 @@ def main():
             if '=' not in line:
                 msg = "Invalid format, missing '=', only edit values after '='"
                 print(f"::error file={filepath},line={line_num}::{msg}")
-                error_messages.append(f"- **{filename}:{line_num}** - {msg}")
                 errors_found = True
                 continue
                 
@@ -85,7 +82,6 @@ def main():
             if value.startswith(' '):
                 msg = "No spaces allowed between '=' and the translated text"
                 print(f"::error file={filepath},line={line_num}::{msg}")
-                error_messages.append(f"- **{filename}:{line_num}** - {msg}")
                 errors_found = True
                 continue
                 
@@ -94,7 +90,6 @@ def main():
             if key not in en_data:
                 msg = f"Unknown key '{key}', do NOT modify the key names on the left side"
                 print(f"::error file={filepath},line={line_num}::{msg}")
-                error_messages.append(f"- **{filename}:{line_num}** - {msg}")
                 errors_found = True
                 continue
                 
@@ -108,7 +103,6 @@ def main():
             if Counter(loc_tokens) != Counter(en_tokens):
                 msg = f"Formatting tokens mismatch for key '{key}', expected `{en_tokens}`, found `{loc_tokens}`"
                 print(f"::error file={filepath},line={line_num}::{msg.replace('`', '')}")
-                error_messages.append(f"- **{filename}:{line_num}** - {msg}")
                 errors_found = True
 
         if is_new_file and total_valid_keys > 0:
@@ -116,19 +110,10 @@ def main():
             if ratio < 0.5:
                 msg = f"New file must be at least 50% translated (currently {ratio:.1%}, needs {len(en_data)/2:.0f} keys)"
                 print(f"::error file={filepath}::{msg}")
-                error_messages.append(f"- **{filename}** - {msg}")
                 errors_found = True
 
     if errors_found:
         print("\nCheck failed, please fix the errors above")
-        with open("pr_comment.md", "w", encoding="utf-8") as f:
-            f.write("### Locale Check Failed\n\n")
-            f.write("Please fix the following errors:\n\n")
-            for err in error_messages[:20]:
-                f.write(f"{err}\n")
-            if len(error_messages) > 20:
-                f.write(f"\n*...and {len(error_messages) - 20} more errors, check the workflow logs for full details*\n")
-            f.write("\n> _**Note**: Make sure your translation keys match the left side of `=` in `en.txt`, and don't translate or remove formatting tokens like `%s` or `%.1f`._")
         sys.exit(1)
     else:
         print("\nAll locale files passed the check successfully")

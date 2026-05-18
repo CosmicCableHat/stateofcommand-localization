@@ -53,7 +53,7 @@ ui.button.military_hq=Quartier Generale Militare
 ui.button.depot=Deposito
 
 # UI Manager| City Tab (multiple cities)
-ui.label.cities_selected=%d città selezionate
+ui.label.cities_selected=%zu città selezionate
 ui.label.total_buildings=Edifici totali:
 ui.label.no_buildings_selected=Nessun edificio nelle città selezionate
 ui.button.create_units=Crea unità
